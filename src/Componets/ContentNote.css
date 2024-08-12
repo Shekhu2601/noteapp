@@ -1,0 +1,11 @@
+.btnimg{
+    background-color: transparent !important ;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+.btnimg:hover{
+    cursor: pointer;
+    
+}
+

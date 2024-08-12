@@ -1,0 +1,229 @@
+.NoteContainer{
+    display: flex;
+    width: 100%;
+    ;
+}
+.heading{
+    position: fixed;
+    top: 2px;
+    
+}
+.sidebar{
+    margin-top: 50px;
+    width: 35%;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    overflow-y: scroll;
+    
+   
+}
+.sidebar h1{
+    margin-right: 12rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.mainPage{
+    flex: 1;
+    background: #F7ECDC;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainPage .imgB{
+    width: 400px;
+    margin-top: 10rem;
+}
+.mainPage .footer{
+    display: flex;
+    margin-top: 10rem;
+}
+.enc{
+    margin-left: 5px;
+   
+    height: 18px;
+  
+}
+.hide{
+    display: none;
+}
+.createNote{
+    display: inline;
+    padding: 20px;
+    width: 470px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    background-color: white;
+    border: 2px solid lightseagreen;
+    font-weight: 600;
+    font-size: 22px;
+    
+    
+   
+}
+.createNote input{
+    margin: 10px;
+ 
+  
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+    width: 250px;
+    
+}
+.Gbtn{
+   width: 55px;
+   height: 55px;
+
+   border-radius: 50%;
+   background: #16008B;
+
+   border: none;
+   position: fixed;
+   bottom: 50px;
+   left: 30%;
+   
+   
+}
+span{
+    display: flex;
+    
+   
+}
+.color{
+    display: flex;
+}
+.sidebarList{
+    border-radius: 50%;
+    width: 25px;
+ height: 25px;
+ list-style-type: none;
+ margin: 5px;
+ 
+ 
+    
+}
+.im{
+    
+}
+@media screen and (max-width: 440px) {
+    
+    .NoteContainer{
+        display: flex;
+        width:95%;
+    }
+    .sidebar{
+        width: 414px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        margin-top: 50px;
+        
+       
+    }
+    .sidebar h1{
+        margin-right: 12rem;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .mainPage{
+        flex: 1;
+        background: #F7ECDC;
+        text-align: center;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .mainPage .imgB{
+        width: 400px;
+        margin-top: 10rem;
+    }
+    .mainPage .footer{
+        display: flex;
+        margin-top: 10rem;
+    }
+    .enc{
+        margin-left: 5px;
+       
+        height: 18px;
+      
+    }
+    .hide{
+        display: none;
+    }
+    .createNote{
+        display: inline;
+        padding: 10;
+        width: 340px;
+        height: 150px;
+        position: absolute;
+        top: 50%;
+        left: 2%;
+        background-color: white;
+        border: 2px solid lightseagreen;
+        font-weight: 500;
+        font-size: 15px;
+        
+        
+       
+    }
+    .createNote input{
+        margin: 10px;
+     
+      
+        border-radius: 20px;
+        font-size: 15px;
+        padding: 5px;
+        width: 200px;
+        
+    }
+    .Gbtn{
+        width: 55px;
+        height: 55px;
+     
+        border-radius: 50%;
+        background: #16008B;
+     
+        border: none;
+        position: fixed;
+        bottom: 40px;
+        left: 80%;
+        
+        
+     }
+    span{
+        display: flex;
+        
+       
+    }
+    .color{
+        display: flex;
+    }
+    .sidebarList{
+        border-radius: 50%;
+        width: 25px;
+     height: 25px;
+     list-style-type: none;
+     margin: 5px;
+     
+     
+        
+    }
+    .heading{
+        position: fixed;
+        top: 2px;
+        
+    }
+  }
+  

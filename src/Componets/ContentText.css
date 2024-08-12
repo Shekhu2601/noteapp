@@ -1,0 +1,25 @@
+.content-container{
+    display: flex;
+    position: relative;
+    width: 94%;
+    background-color: white;
+    margin-bottom: 10px !important;
+    padding: 8px;
+    margin-top: 20px !important;
+    margin: auto;
+}
+.date{
+    position: absolute;
+    bottom: 0;
+    right: 102px;
+    
+}
+.time{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    
+}
+.text{
+    margin-bottom: 30px;
+}
